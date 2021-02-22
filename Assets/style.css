@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h1, nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1 {
+    color: white;
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    padding-left: 50px;
+}
+
+nav {
+    float: right;
+    margin-top: 40px;
+    display: block;
+    text-align: right;
+    padding-right: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px
+}
+
+nav {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    padding: 20px 20px
+}
+
+a:link:hover {
+    color: #fc3fd2;
+}
+
+.jelly1 {
+    height: 750px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./images/jelly1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    size: 24px;
+    padding: 100px 50px 20px 50px;
+}
+
+p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    size: 12px;
+    padding-left: 50px;
+}
+
+img {
+    width: 30%;
+    float:right;
+    padding: 50px 150px 50px 50px;
+}
+
+.spacer {
+    height: 50px;
+}
+
+h2 .Headings {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    size: 100px;
+    padding: 50px 50px 20px 50px;
+}
+  
+.spacer2 {
+    height: 200px;
+}
+
+.card {
+    width: 130px;
+    height: 195px;
+    background: url("./images/ReactJavascriptCSS1.png") no-repeat;
+    display: inline-block;
+}
