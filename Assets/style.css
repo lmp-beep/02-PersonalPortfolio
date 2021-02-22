@@ -89,9 +89,4 @@ h2 .Headings {
     height: 200px;
 }
 
-.card {
-    width: 130px;
-    height: 195px;
-    background: url("./images/ReactJavascriptCSS1.png") no-repeat;
-    display: inline-block;
-}
+
