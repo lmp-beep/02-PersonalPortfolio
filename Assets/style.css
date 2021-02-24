@@ -23,16 +23,13 @@ h1 {
 
 nav {
     float: right;
+    color: white;
     margin-top: 40px;
     display: block;
     text-align: right;
     padding-right: 50px;
     font-family: 'Raleway', sans-serif;
     font-size: 24px
-}
-
-nav {
-    color: white;
 }
 
 a {
@@ -42,8 +39,8 @@ a {
 
 }
 
-a:link:hover {
-    color: #F937BA;
+a:hover {
+    color: #F937BA !important;
 }
 
 .jelly1 {
@@ -98,4 +95,6 @@ p {
     padding-left: 100px;
 }
 
-
+.contact a:hover {
+    color: yellowgreen;
+}
