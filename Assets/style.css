@@ -55,6 +55,8 @@ h2 {
 }
 
 p {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 18px;
     padding-left: 120px;
     float: left;
@@ -62,6 +64,8 @@ p {
 }
 
 .MePhoto {
+    display: flex;
+    flex-wrap: wrap;
     width: 40%;
     float:right;
     padding-right: 30px;
@@ -76,13 +80,25 @@ p {
 }
 
 .work1 img {
+    display: flex;
+    flex-wrap: wrap;
     width: 50%;
     float: left;
 }
 
 .work2 img {
+    display: flex;
+    flex-wrap: wrap;
     width: 50%;
     float: right;
+}
+
+.work1:hover {
+    transform: scale(1.03);
+}
+
+.work2:hover {
+    transform: scale(1.03);
 }
 
 .contact {
@@ -107,6 +123,8 @@ p {
         width: 60%;
     }
   }
+
+ 
 
 
   
