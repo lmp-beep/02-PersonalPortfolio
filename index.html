@@ -1,105 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="Assets/style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <title>Lisa Pessin</title>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
-</head>
 
-<body>
-    <header>
-        <h1>LISA PESSIN</h1>
-        <nav>
-            <a href="#About Me">ABOUT ME</a> |
-            <a href="#Portfolio">PORTFOLIO</a> |
-            <a href="#Resume">RESUME</a> |
-            <a href="#Contact">CONTACT</a> 
-        </nav>
-    </header>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link href="./assets/style.css" rel="stylesheet">
+    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sticky-footer/"> -->
+    <!-- <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  </head>
+
+
+
+  <body class="d-flex flex-column h-100">
     
-    <div class="jelly1">
+<!-- Begin page content -->
+<main class="flex-shrink-0">
+  <div class="container">
+    <!-- <h1 class="mt-5">Sticky footer</h1>
+    <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.</p>
+    <p>Use <a href="../examples/sticky-footer-navbar/">the sticky footer with a fixed navbar</a> if need be, too.</p> -->
+    <!-- <img class="headerBig"/> -->
+    <img class="myLogo" src="./assets/images/PinkLogo.png">
+    
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid">
+          <a href="#About Me">PORTFOLIO</a>
+          <a href="#About Me">ABOUT</a>
+          <a href="#About Me">CONTACT</a>
+        </div>
+      </nav>
     </div>
+    
+    
+    
 
 
-    <!-- ABOUT ME SECTION -->
-    <div id="About Me">
-        <img src="./Assets/images/MEsmall.png" class="MePhoto" alt="Photo of Lisa">
-        <h2>
-            ABOUT ME
-        </h2>
+  </div>
+</main>
 
-        <p class="about-me">
-        Hello! I am Lisa, a budding Web Developer. Welcome to my main portfolio website. <br/>
-        <br/>
-        I have been working as a professional photographer for more years than I can count, and I am now ready for my next big adventure - mastering Web Dev!<br/>
-        <br/>
-        I have a thorough knowledge of cameras and lighting and Photoshop, and a bunch of other things that have nothing to do with HTML and CSS and Javascript, so please be patient as I learn.<br/>
-        <br/>
-        I know my work is not that great now, but I promise it will get better!
-        </p>
-    </div>  
+<footer class="footer mt-auto py-5">
+  <div class="container">
+    <span class="footer-text" id="copyright">COPYRIGHT © LISA PESSIN 2021</span>
+  </div>
+</footer>
+
 
     
-    <div class="spacer2">
-    </div>
-
-
-    <!-- Work Section -->
-    <div id="Portfolio">
-        <h2>
-            PORTFOLIO
-        </h2>
-
-        <div class="work1">
-            <img src="./Assets/images/fish.png" alt="fish">
-        </div>
-        <div class="work2">
-            <img src="./Assets/images/scorpion.png" alt="scorpion">
-        </div>
-        <div class="work1">
-            <img src="./Assets/images/snakegreen.png" alt="green snake">
-        </div>
-        <div class="work2">
-            <img src="./Assets/images/snakeyellow.png" alt="yellow snake">
-        </div>
-    </div>
-
-   
-
-
-
-    <!-- Resume Section -->
-    <div id="Resume">
-        <h2>
-            RESUME
-        </h2>
-        <p>
-            COMING SOON!
-        </p>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-
-    <!-- Contact Section -->
-    <div id="Contact">
-        <h2>
-            CONTACT
-        </h2>
-        <section class="contact">
-            <a href="https://www.lisapessin.com" target="_blank">lisapessin.com</a> |
-            <a href="https://www.linkedin.com/in/lisa-pessin-7033b8203/" target="_blank">linkedIn</a> |
-            <a href="https://github.com/lmp-beep" target="_blank">GitHub</a> 
-        </section>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-</body>
+  </body>
 </html>

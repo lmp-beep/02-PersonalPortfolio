@@ -1,138 +1,88 @@
-* {
-    margin: 0;
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
 }
 
-:root {
-    --fontColor: white;
-    color: var(--fontColor);
-    --fontFamily: 'Raleway', sans-serif;
-    font-family: var(--fontFamily);
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+   
+
+      * {
+        margin: 0;
+    }
+    
+    body {
+      background-image: url("./images/HeaderImageBig.png");
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+        }
+
+.myLogo {
+  width: 100%;
+  padding-top: 50px;
 }
 
-body {
-    background-color: black;
-}
+/* nav {
+  
+  
+  padding-left: 50%;
+  
+  
+} */
 
-h1 {
-    margin-top: 25px;
-    font-size: 40px;
-    font-weight: 100;
-    display: inline-block;
-    padding-left: 50px;
-}
 
-nav {
-    float: right;
-    margin-top: 40px;
-    display: block;
-    text-align: right;
-    padding-right: 50px;
-    font-size: 24px
+.navbar {
+  background-image: none;
+  /* text-align: center; */
 }
 
 a {
-    text-decoration: none;
-    color:white;
-    padding: 20px 20px;
+  text-decoration: none;
+  color:#5D5C5D;
+  padding: 20px 40px;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  display: inline-block;
+  /* text-align: center; */
+  letter-spacing: 20px;
+  
+  
 }
 
 a:hover {
-    color: #F937BA !important;
+  color: #EE028D !important;
+  text-decoration: none;
 }
 
-.jelly1 {
-    height: 750px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("./images/jelly1.jpg");
-    background-size: cover;
-    background-position: center;
+.footer-text {
+  color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
-h2 {
-    size: 24px;
-    padding: 100px 50px 20px 50px;
+#copyright {
+  font-size: 12px;
 }
 
-p {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 18px;
-    padding-left: 120px;
-    float: left;
-    width: 40%;
+.footer {
+  background-color: #a6a6a6;
 }
-
-.MePhoto {
-    display: flex;
-    flex-wrap: wrap;
-    width: 40%;
-    float:right;
-    padding-right: 30px;
-}
-
-.spacer {
-    height: 50px;
-}
-  
-.spacer2 {
-    height: 300px;
-}
-
-.work1 img {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    float: left;
-}
-
-.work2 img {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    float: right;
-}
-
-.work1:hover {
-    transform: scale(1.03);
-}
-
-.work2:hover {
-    transform: scale(1.03);
-}
-
-.contact {
-    font-size: 24px;
-    display: inline-block;
-    padding-left: 100px;
-}
- 
-  
-  /* On screens that are 900px wide or less, make the columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 900px) {
-    .work1 img {
-      width: 100%;
-    }
-    .work2 img {
-        width: 100%;
-      }
-    p {
-        width: 100%;
-    }  
-    .MePhoto {
-        width: 60%;
-    }
-  }
-
- 
-
-
-  
-  
-  
- 
-
-
-
-
-
+    
